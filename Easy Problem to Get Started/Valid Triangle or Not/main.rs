@@ -10,13 +10,11 @@ fn int_space_input() -> Vec<i32> {
 }
 
 fn main() {
-    let arr1 = int_space_input();
-    let arr2 = int_space_input();
-    let mut ans = -1;
-    for i in 0..arr1[0] {
-        if arr2[i as usize] == arr1[1] {
-            ans = 1;
-        }
+    let array = int_space_input();
+    if array[0] + array[1] > array[2] && array[1] + array[2] > array[0] && array[0] + array[2] > array[1] {
+        println!("YES");
     }
-    println!("{}", ans);
+    else {
+        println!("NO");
+    }
 }

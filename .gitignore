@@ -1,2 +1,5 @@
-main.exe
-main.pdb
+../*.exe
+../*.pdb
+# ./*.exe
+# ./*.pdb
+# Easy Problem to Get Started/*/*.exe
