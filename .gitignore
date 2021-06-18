@@ -3,3 +3,5 @@
 # ./*.exe
 # ./*.pdb
 # Easy Problem to Get Started/*/*.exe
+*.pdb
+*.exe
